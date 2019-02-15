@@ -2,7 +2,7 @@
 
 This is a connector written in PHP using the PHP MP API wrapper by Scott Madeira (https://github.com/smadeira/ministry-platform-api).
 
-It is designed to be run from command-line PHP. You can run it on a schedule using cron or your preferred task scheduler.
+It is designed to be run from command-line PHP, but will also work when run through a web server. You can run it on a schedule using cron or your preferred task scheduler.
 
 ### Current Features
 *  Calls the ChOP API to get live event info
@@ -12,7 +12,7 @@ It is designed to be run from command-line PHP. You can run it on a schedule usi
 *  Get the Title of the upcoming/live event from ChOP - this is currently not available in the API endpoint that this script uses for the Live/Not Live status and event start time.
   
 ### But Why
-The current purpose of this connector is to make the live event information available in the MP database so that we can use that data in the stored procedures that build the Dashboard of our Pocket Platform app. Rather than do a complicated API process in the stored procedure, we will run this PHP script on a schedule to update that data. That keeps the dashboard build process speedy while having current enough data.
+The current purpose of this connector is to make the live event information available in the MP database so that we can use that data in the stored procedures that build the Dashboard of our [Pocket Platform app](https://pocketplatform.io). Rather than do a complicated API process in the stored procedure, we run this PHP script on a schedule to update that data. That keeps the dashboard build process speedy while having current enough data.
 
 ### Using the connector
 #### Prepare Ministry Platform
