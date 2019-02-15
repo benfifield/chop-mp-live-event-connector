@@ -1,0 +1,7 @@
+# DotEnv
+.env
+
+# Composer
+composer.phar
+/vendor/
+composer.lock

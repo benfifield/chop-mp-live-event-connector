@@ -1,0 +1,5 @@
+{
+    "require": {
+        "smadeira/ministry-platform-api": "^2.3"
+    }
+}
