@@ -6,11 +6,8 @@ It is designed to be run from command-line PHP, but will also work when run thro
 
 ### Current Features
 *  Calls the ChOP API to get live event info
-*  Puts the live status and event start time into a custom record in MP
+*  Puts the live status, event start time, and event title into a custom record in MP
 
-### Future Features
-*  Get the Title of the upcoming/live event from ChOP - this is currently not available in the API endpoint that this script uses for the Live/Not Live status and event start time.
-  
 ### But Why
 The current purpose of this connector is to make the live event information available in the MP database so that we can use that data in the stored procedures that build the Dashboard of our [Pocket Platform app](https://pocketplatform.io). Rather than do a complicated API process in the stored procedure, we run this PHP script on a schedule to update that data. That keeps the dashboard build process speedy while having current enough data.
 
