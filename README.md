@@ -1,5 +1,7 @@
 ## Church Online Platform to Ministry Platform Live Event Connector
 
+***This project is deprecated!*** This project only works with Church Online Platform v3, which is now retired.
+
 This is a connector written in PHP using the PHP MP API wrapper by Scott Madeira (https://github.com/smadeira/ministry-platform-api).
 
 It is designed to be run from command-line PHP, but will also work when run through a web server. You can run it on a schedule using cron or your preferred task scheduler.
